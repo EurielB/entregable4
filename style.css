@@ -1,0 +1,119 @@
+*{
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: rgb(40, 37, 185);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;     
+}
+h2{
+    color: green;
+    font-size: 25px;
+}
+p{
+    color: blue;
+    font-size: 20px;
+}
+strong{
+    color: purple;
+    font-size: 22px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    background-color: lightblue;
+    padding: 10px;
+    
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: blue;
+    font-size: 20px;
+}
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: blue;
+    font-size: 20px;
+}
+blockquote {
+    border-left: 5px solid gray;
+    padding-left: 15px;
+    color: darkgray;
+    font-style: italic;
+}
+.form-contacto {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.form-contacto label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-contacto input[type="text"],
+.form-contacto input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-contacto button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.form-contacto button:hover {
+  background-color: #0056b3;
+}
+
+
+
